@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,700;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  }
+
+  :root {
+    /* HERO */
+    --hero-p: 30px;
+    --hero-h1: 50px;
+    --hero-h2: 20px;
+    --hero-h2-letter: #909090;
+    --hero-button-back: #C4C4C4;
+    --hero-CVButton: white;
+
+    /* NAVBAR */
+    --navColor: white;
+    --navButtonColor: white;
+    --navButtonLetter: black;
+
+    /* COLORS */
+    --primary-color: black;
+    --secondary-color: #d7d7d7;
+    --tertiary-color: white;
+    --skills-color: #FFFFFF;
+    --4th-color: #1A1A1A;
+
+    /* PADDING */
+    --padding-xs: 5px;
+    --padding-s: 10px;
+    --padding-m: 20px;
+    --padding-medium: 40px;
+    --padding-l: 60px;
+    --padding-xl: 100px;
+    --padding-xxl: 200px;
+    --padding-extreme: 300px;
+
+    /* MARGIN */
+    --margin-xs: 5px;
+    --margin-s: 10px;
+    --margin-m: 20px;
+    --margin-mm: 30px;
+    --margin-medium: 50px;
+    --margin-l: 100px;
+    --margin-xl: 150px;
+    --margin-xxl: 200px;
+
+    /* BORDER RADIUS */
+    --radius-xs: 10px;
+    --radius-s: 20px;
+    --radius-m: 100px;
+
+    /* GAP */
+    --gap-xxs: 5px;
+    --gap-xs: 20px;
+    --gap-s: 50px;
+    --gap-m: 100px;
+  }

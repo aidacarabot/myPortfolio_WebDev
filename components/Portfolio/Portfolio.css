@@ -1,0 +1,227 @@
+#portfolio {
+  width: 100%;
+  /* background: #1A1A1A; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-l);
+  --s: 200px; /* control the size */
+  --c1: #000000;
+  --c2: #101011;
+  --c3: #151515;
+
+  background: repeating-conic-gradient(
+        from 30deg,
+        #0000 0 120deg,
+        var(--c3) 0 180deg
+      )
+      calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+    repeating-conic-gradient(
+      from 30deg,
+      var(--c1) 0 60deg,
+      var(--c2) 0 120deg,
+      var(--c3) 0 180deg
+    );
+  background-size: var(--s) calc(var(--s) * 0.577);
+}
+
+#portfolio > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--tertiary-color);
+  padding: var(--padding-m);
+  border: 5px var(--tertiary-color) solid;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: var(--padding-xxl);
+  padding-left:var(--padding-xxl);
+  padding-top: var(--padding-l);
+  padding-bottom: var(--padding-l);
+  gap: var(--gap-s);
+  width: 100%;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--secondary-color);
+  border-radius: var(--radius-s);
+  height: 350px;
+  width: 700px;
+  margin-bottom: var(--margin-m);
+  overflow: hidden; /* Para asegurarse de que la imagen no sobresalga */
+}
+
+
+
+.project-container.normal .project-info {
+  order: 1;
+}
+
+.project-container.normal .project-img {
+  order: 2;
+}
+
+.project-container.reversed .project-info {
+  order: 2;
+}
+
+.project-container.reversed .project-img {
+  order: 1;
+}
+
+.project-info {
+  padding-left: var(--padding-medium);
+  padding-right: var(--padding-m);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-info > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary-color);
+  margin-bottom: var(--margin-m);
+}
+
+.project-info > p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: smaller;
+  color: #595959;
+}
+
+.projects-section > p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--tertiary-color);
+  margin-top: var(--margin-medium);
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: var(--radius-s);
+  border-bottom-right-radius: var(--radius-s);
+}
+
+.project-container.normal .project-img img {
+  border-top-right-radius: var(--radius-s);
+  border-bottom-right-radius: var(--radius-s);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.project-container.reversed .project-img img {
+  border-top-left-radius: var(--radius-s);
+  border-bottom-left-radius: var(--radius-s);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.project-buttons {
+  display: flex;
+  margin-top: var(--margin-mm);
+  gap: var(--gap-xxs);
+}
+
+.project-buttons > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-m);
+  background: transparent;
+  text-decoration: none;
+}
+
+.button-repository {
+  background-color: #ffffff00;
+  color: #fff;
+  width: 10.5em;
+  height: 2.9em;
+  text-align: right;
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.button-repository:hover {
+  background-color: #2f4550;
+  cursor: pointer;
+}
+
+.button-repository svg {
+  width: 1.2em;
+  margin-right: 0.7em;
+  transition: all 0.6s ease;
+}
+
+.button-repository:hover svg {
+  transform: translateX(5px);
+}
+
+.text-repository {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: inherit;
+}
+
+/* TODOS MEDIA QUERIES */
+@media (width < 1092px) {
+  .projects-section {
+    padding: 0;
+    padding-top: var(--padding-l);
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+
+  .project-info {
+    padding: var(--padding-m);
+    height: 50%;
+  }
+
+  .project-img {
+    height: 50%;
+  }
+
+  
+  .project-container.normal .project-img img {
+    border-top-right-radius: 0;
+  }
+
+}

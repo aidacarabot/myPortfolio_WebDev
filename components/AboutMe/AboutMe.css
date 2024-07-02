@@ -1,0 +1,111 @@
+#about-me {
+  width: 100%;
+  height: 130vh; 
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-s);
+  padding: var(--padding-l);
+}
+
+.aboutMeTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--tertiary-color);
+  padding: var(--padding-m);
+  border: 5px white solid;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.presentation {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.Education {
+  padding-left: var(--padding-xxl);
+  padding-right: var(--padding-xxl);
+}
+
+.Experience {
+  padding-right: var(--padding-xxl);
+  padding-left: var(--padding-xxl);
+}
+
+#selectionTab {
+  display: flex;
+}
+
+#selectionTab > article > p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  padding-bottom: var(--padding-m);
+
+}
+
+.tab {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab.active p {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.tab:not(.active) p {
+  color: #7C7C7C;
+  border-bottom: 1px solid #7C7C7C;
+}
+
+#content-area {
+  margin-top: 20px;
+  transition: opacity 0.5s ease;
+}
+
+#content-area.hidden {
+  opacity: 0;
+}
+
+/* TODOS MEDIA QUERIES */
+@media (width < 1092px) {
+  #about-me {
+    height: auto;
+  }
+
+ #selectionTab {
+  width: 100%;
+ }
+
+ #education-tab {
+  width: 50%;
+ }
+ .Education {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+ }
+ #experience-tab {
+  width: 50%;
+ }
+ .Experience {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+ }
+
+}
+
+

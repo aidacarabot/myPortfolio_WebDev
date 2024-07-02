@@ -1,0 +1,76 @@
+#skills {
+  width: 100%;
+  background-color: var(--skills-color);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-s);
+  padding: var(--padding-l);
+}
+
+.skillsTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary-color);
+  padding: var(--padding-m);
+  border: 5px var(--primary-color) solid;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  align-self: center;
+}
+
+.skills-container {
+  padding-left: var(--padding-extreme);
+  padding-right: var(--padding-extreme);
+}
+
+.skills-container > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary-color);
+  margin-bottom: var(--margin-l);
+  margin-top: var(--margin-m);
+
+}
+
+.skills-section {
+  display: flex;
+  gap: var(--gap-m);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: var(--margin-xl);
+}
+
+.skills-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+
+.skills-items > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skill-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* TODOS MEDIA QUERIES */
+@media (width < 1092px) {
+  .skills-container {
+    padding: 0;
+  }
+
+  .skillTitle {
+    text-align: center;
+  }
+
+}
