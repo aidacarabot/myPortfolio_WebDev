@@ -12,6 +12,7 @@ const educationTemplate = () => {
           <div class = "edu-description">
           <h3>${education.degree}</h3>
           <h4>${education.university}, ${education.graduationYear}</h4>
+          <h4 class="location">${education.location}</h4>
           <p>${education.description}</p>
           </div>
         </div>

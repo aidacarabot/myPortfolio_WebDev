@@ -12,6 +12,15 @@
   margin-bottom: var(--margin-medium);
 }
 
+.location {
+  font-size: smaller;
+  font-style: italic;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
 .company-logo {
   width: 80px;
   border-radius: 100%;
@@ -36,6 +45,9 @@
 .job-info > h4 {
   margin-left: var(--margin-xs);
   font-weight: 600;
+  /* width: 100%;
+  display: flex;
+  justify-content: end; */
 }
 
 .job-info > p {
@@ -45,6 +57,9 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    width: 100%;
+  display: flex;
+  justify-content: end;
 }
 
 .job-date {

@@ -12,6 +12,7 @@ const experienceTemplate = () => {
           <div class="job-info">
           <h3>${job.position}</h3>
           <h4>${job.company}</h4>
+          <h4 class="location">${job.location}</h4>
           <p class="job-date">${job.startDate} - ${job.endDate}</p>
           <p class="job-description">${job.description}</p>
           </div>
