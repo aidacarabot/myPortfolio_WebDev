@@ -6,7 +6,7 @@ const NavBar = () => {
   header.id = "navbar";
 
   const imgLogo = document.createElement('img');
-  imgLogo.src = './public/assets/Logo1_AC.png';
+  imgLogo.src = '/assets/Logo1_AC.png';
   imgLogo.classList.add('navbar-logo');
 
   const nav = document.createElement('nav');
