@@ -15,13 +15,13 @@ const heroPrint = () => {
 
   <div id="div-buttons">
     <a href="mailto:${data.contactMe.email}">
-    <button class = "bottone5"><img src="./public/assets/arroba.png"></img></button>
+    <button class = "bottone5"><img src="/assets/arroba.png"></img></button>
     </a>
     <a href="${data.contactMe.linkedin}" target="_blank">
-      <button class = "bottone5"><img src="./public/assets/linkedin.png"></img></button>
+      <button class = "bottone5"><img src="/assets/linkedin.png"></img></button>
     </a>
     <a href="${data.contactMe.github}" target="_blank">
-      <button class = "bottone5"><img src="./public/assets/github.png"></img></button>
+      <button class = "bottone5"><img src="/assets/github.png"></img></button>
     </a>
   </div>
   </div>

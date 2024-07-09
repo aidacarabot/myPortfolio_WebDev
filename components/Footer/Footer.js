@@ -16,13 +16,13 @@ const footerTemplate = () => {
 
     <div id="rights-buttons">
     <a href="mailto:${data.contactMe.email}">
-    <button class="rights-style"><img src="./public/assets/email-white.png"></img></button>
+    <button class="rights-style"><img src="/assets/email-white.png"></img></button>
     </a>
     <a href="${data.contactMe.linkedin}" target="_blank">
-      <button class="rights-style"><img src="./public/assets/linkedin-white.png"></img></button>
+      <button class="rights-style"><img src="/assets/linkedin-white.png"></img></button>
     </a>
     <a href="${data.contactMe.github}" target="_blank">
-      <button class="rights-style"><img src="./public/assets/github-white.png"></img></button>
+      <button class="rights-style"><img src="/assets/github-white.png"></img></button>
     </a>
   </div>
 
