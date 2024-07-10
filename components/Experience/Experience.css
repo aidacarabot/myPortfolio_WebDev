@@ -45,9 +45,6 @@
 .job-info > h4 {
   margin-left: var(--margin-xs);
   font-weight: 600;
-  /* width: 100%;
-  display: flex;
-  justify-content: end; */
 }
 
 .job-info > p {
@@ -64,7 +61,7 @@
 
 .job-date {
   display: flex;
-  flex-direction: end;
+  justify-content: end;
 }
 
 .job-description {
@@ -83,6 +80,7 @@
   .job {
     flex-direction: column;
     padding: 0;
+    margin-bottom: var(--margin-l);
   }
 
   .job-logo {
@@ -96,10 +94,16 @@
   .job-info {
     justify-content: center;
     align-items: center;
+    gap: var(--gap-xs);
+  }
+
+  .job-info > h3 {
+    text-align: center;
   }
 
   .job-info > h4 {
     margin: 0;
+    text-align: center;
   }
 
   .job-description {
@@ -107,8 +111,13 @@
     margin: 0;
   }
 
+  .location {
+    justify-content: center;
+  }
 
-
+  .job-info > p {
+    justify-content: center;
+  }
 
 }
 

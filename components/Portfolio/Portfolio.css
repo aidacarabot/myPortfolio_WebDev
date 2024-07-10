@@ -197,6 +197,12 @@
 
 /* TODOS MEDIA QUERIES */
 @media (width < 1092px) {
+
+  #portfolio {
+    padding: 0;
+    padding-bottom: var(--padding-l);
+    padding-top: var(--padding-l);
+  }
   .projects-section {
     padding: 0;
     padding-top: var(--padding-l);
@@ -205,8 +211,8 @@
   .project-container {
     display: flex;
     flex-direction: column;
-    height: 500px;
-    max-width: 300px;
+    min-height: 700px;
+    max-width: 350px;
     min-width: 300px;
   }
 
@@ -215,11 +221,15 @@
     height: 50%;
   }
 
+  .project-info > h3 {
+    text-align: center;
+  }
+
   .project-img {
     height: 50%;
   }
 
-  
+
   .project-container.normal .project-img img {
     border-top-right-radius: 0;
   }

@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
 //TODOS ESTILOS SCROLL REVEAL:
 
 ScrollReveal().reveal('#navbar',{
