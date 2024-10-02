@@ -2,7 +2,7 @@ const data = {
   name: "Aida Carabot",
   title: "Full-Stack Developer & E-Commerce Manager",
   avatar:"/assets/cv_image.jpg",
-  cv:"/assets/cv/AidaCarabot_CV.pdf",
+  cv:"/cv/AidaCarabot_CV.pdf",
   aboutMe:
     "Passionate web developer with a diverse background in e-commerce, marketing, and content creation, seeking a challenging tech role. My journey began with a Bachelor's in Business Administration, where I developed a strong foundation in business principles and analytical thinking. Driven by an insatiable curiosity for coding and a knack for crafting user-centric web applications, I embarked on a Full-Stack Development Bootcamp (currently finishing Back-End).",
 
