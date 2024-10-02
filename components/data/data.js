@@ -139,10 +139,6 @@ const data = {
           skill: "VITE",
           logo: "/skills/vite.png",
         },
-      
-      ],
-    
-      learning : [
         {
           skill: "NODEJS",
           logo: "/skills/nodejs.png",
@@ -151,6 +147,10 @@ const data = {
           skill: "MONGODB",
           logo: "/skills/mongodb.png",
         },
+      
+      ],
+    
+      learning : [
         {
           skill: "REACT",
           logo: "/skills/react.png",
@@ -217,7 +217,6 @@ const data = {
 },
 
   projects: [
-
     {
       title: "Pinterest Project with API",
       description:
@@ -235,6 +234,15 @@ const data = {
       repository: "https://github.com/aidact3/Project-2-iZone",
       preview:
         "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Games Hub",
+      description:
+        "Created a web page featuring games like TicTacToe, Memory Game, and Rock Paper Scissors, providing an engaging and interactive experience for users. Built with Vite and JavaScript, the project utilizes JS Storage for storing game data locally. This project allowed me to enhance my skills in web development and managing local storage.",
+      link: "https://gameshub-glitch.netlify.app/",
+      repository: "https://github.com/aidact3/GamesHub",
+      preview:
+        "https://images.unsplash.com/photo-1640955011254-39734e60b16f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Clothing Store Website",
