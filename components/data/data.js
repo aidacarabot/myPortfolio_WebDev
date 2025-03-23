@@ -230,7 +230,7 @@ const data = {
       link: "https://react-simpsons-api.vercel.app/",
       repository: "https://github.com/aidacarabot/react-simpsons-api",
       preview:
-        "/project/simpsons.jpg",
+        "/project/thesimpsons.png",
     },
     {
       title: "Games Hub",
