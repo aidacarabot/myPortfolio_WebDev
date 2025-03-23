@@ -1,29 +1,26 @@
 const data = {
   name: "Aida Carabot",
-  title: "Full-Stack Developer & E-Commerce Manager",
+  title: "Junior Full-Stack Developer with Business Background",
   avatar:"/assets/cv_image.jpg",
   cv:"/cv/AidaCarabot_CV.pdf",
   aboutMe:
-    "Passionate web developer with a diverse background in e-commerce, marketing, and content creation, seeking a challenging tech role. My journey began with a Bachelor's in Business Administration, where I developed a strong foundation in business principles and analytical thinking. Driven by an insatiable curiosity for coding and a knack for crafting user-centric web applications, I embarked on a Full-Stack Development Bootcamp (currently finishing Back-End).",
+    "Hi there! I'm a Junior Full-Stack Developer with a unique background in business and e-commerce. My journey into the world of coding has been an exciting transition from my previous role as a Brand Manager at Amazon. With a Bachelor's degree in Business Administration, I spent several years honing my skills in brand management and e-commerce strategies. During my time at Amazon, I developed a keen interest in the technical aspects of online businesses. This curiosity eventually led me to explore the fascinating world of web development. Driven by my passion for problem-solving and creating innovative solutions, I decided to take a leap and immerse myself in the tech world. I recently completed an intensive Full-Stack Web Development Bootcamp, where I gained hands-on experience in both front-end and back-end technologies. This experience has equipped me with a solid foundation in HTML, CSS, JavaScript, and various modern frameworks and libraries. What excites me most about coding is the ability to bring ideas to life. I love the challenge of turning concepts into functional, user-friendly applications. My business background gives me a unique perspective on development projects, allowing me to approach problems with both a technical and strategic mindset. As a junior developer, I'm constantly learning and expanding my skill set. While I'm still exploring the vast landscape of web development, I'm particularly intrigued by emerging technologies. Cloud computing, Web3, blockchain, machine learning, and artificial intelligence are areas that fascinate me. I'm excited about the potential of these technologies to shape the future of web development and eager to delve deeper into these fields as I grow in my career. When I'm not coding, you can find me catching waves at the beach. Surfing, like coding, teaches me the value of patience, persistence, and the thrill of mastering new skills. I'm currently seeking opportunities to apply my skills and contribute to innovative web development projects. I'm excited about the possibility of bringing my unique blend of business acumen and technical skills to a dynamic development team. Feel free to explore my portfolio to see some of the projects I've been working on. If you're interested in collaborating or have any questions, don't hesitate to reach out. Let's create something amazing together!",
 
-  
   contactMe: {
-    address: "Santo Domingo, Dominican Republic",
+    address: "Madrid, Spain",
     email: "aidacarabot.tosar@gmail.com",
     linkedin:"https://www.linkedin.com/in/aidacarabot/",
-    github:"https://github.com/aidact3",
+    github:"https://github.com/aidacarabot",
   },
-
-
 
   education: [
   {
-      degree: "Full-Stack Developer Bootcamp",
-      university: "thePowerMBA",
+      degree: "Full-Stack Development Bootcamp",
+      university: "Hack(io)",
       graduationYear: 2024,
       location: "Online",
-      description: "Driven by a long-standing passion for programming, I decided to transition into tech by enrolling in an intensive Full-Stack Development Bootcamp. Recognizing the transformative power of technology in today's business landscape, I am driven to bridge the gap between my solid business foundation and the dynamic world of software development. I have successfully completed the Front-End segment and am currently finalizing the Back-End portion. Recognizing the transformative power of technology in today's business landscape, I am driven to bridge the gap between my solid business foundation and the dynamic world of software development.",
-      logo: "/assets/thePower.jpeg",
+      description: "Driven by a passion for programming and a desire to immerse myself in the tech world, I embarked on an intensive Full-Stack Development Bootcamp. This comprehensive program has equipped me with a robust skill set in both front-end and back-end technologies. I've successfully completed the front-end segment, mastering essential web development technologies, and I'm currently finalizing the back-end portion. Through hands-on projects, I've gained practical experience in creating responsive, user-centric web applications. This bootcamp has been transformative, allowing me to turn my coding enthusiasm into tangible skills, preparing me for a career in full-stack development.",
+      logo: "/assets/hackio.jpeg",
   },
   {
     degree: "Nova Talent Member",
@@ -120,6 +117,10 @@ const data = {
           logo: "/skills/js.png",
         },
         {
+          skill: "REACT",
+          logo: "/skills/react.png",
+        },
+        {
           skill: "SCSS / SASS",
           logo: "/skills/sass.png",
         },
@@ -151,10 +152,6 @@ const data = {
       ],
     
       learning : [
-        {
-          skill: "REACT",
-          logo: "/skills/react.png",
-        },
         {
           skill: "TYPESCRIPT",
           logo: "/skills/typescript.png",
@@ -218,6 +215,33 @@ const data = {
 
   projects: [
     {
+      title: "Meetly - Event Management Platform",
+      description:
+        "Developed a full-stack event management platform that allows users to create, manage, and join events. The platform features user authentication, event creation, and management functionalities. The project was built using JavaScript, Node.js, Express, and MongoDB, allowing users to seamlessly interact with the platform and create memorable events.",
+      link: "https://project-meetly-app.vercel.app/",
+      repository: "https://github.com/aidacarabot/MEETLY",
+      preview:
+        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "React API - The Simpsons Characters",
+      description:
+        "Developed a web page that fetches data from The Simpsons API, displaying information about various characters from the show. The project was built using React, allowing users to explore different characters and learn more about their favorite Simpsons characters. This project helped me enhance my skills in React and API integration.",
+      link: "https://react-simpsons-api.vercel.app/",
+      repository: "https://github.com/aidacarabot/react-simpsons-api",
+      preview:
+        "/project/simpsons.jpg",
+    },
+    {
+      title: "Games Hub",
+      description:
+        "Created a web page featuring games like TicTacToe, Memory Game, and Rock Paper Scissors, providing an engaging and interactive experience for users. Built with Vite and JavaScript, the project utilizes JS Storage for storing game data locally. This project allowed me to enhance my skills in web development and managing local storage.",
+      link: "https://gameshub-glitch.netlify.app/",
+      repository: "https://github.com/aidact3/GamesHub",
+      preview:
+        "https://images.unsplash.com/photo-1640955011254-39734e60b16f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
       title: "Pinterest Project with API",
       description:
         "Created a web page that emulates Pinterests functionalities, providing an intuitive and visually appealing interface; using the Unsplash API to access external images.This project has given me the opportunity to improve my web development skills and work with APIs.",
@@ -234,15 +258,6 @@ const data = {
       repository: "https://github.com/aidact3/Project-2-iZone",
       preview:
         "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      title: "Games Hub",
-      description:
-        "Created a web page featuring games like TicTacToe, Memory Game, and Rock Paper Scissors, providing an engaging and interactive experience for users. Built with Vite and JavaScript, the project utilizes JS Storage for storing game data locally. This project allowed me to enhance my skills in web development and managing local storage.",
-      link: "https://gameshub-glitch.netlify.app/",
-      repository: "https://github.com/aidact3/GamesHub",
-      preview:
-        "https://images.unsplash.com/photo-1640955011254-39734e60b16f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Clothing Store Website",

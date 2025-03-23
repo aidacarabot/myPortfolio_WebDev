@@ -15,7 +15,7 @@ const NavBar = () => {
   <ul>
     <li><a href="#about-me">About Me</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#portfolio">Projects</a></li>
     <li><a id="nav-button" href="mailto:${data.contactMe.email}">CONTACT ME</a></li>
   </ul>`
 

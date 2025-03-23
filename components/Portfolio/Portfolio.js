@@ -41,7 +41,7 @@ const portfolioTemplate = () => {
   };
 
   sectionPortfolio.innerHTML = `
-    <h2 class="portfolioTitle">PORTFOLIO</h2>
+    <h2 class="portfolioTitle">PROJECTS</h2>
     <div class="projects-section">
       ${generateProjectsHTML()}
       <p class="more"> And many more to come! </p>
