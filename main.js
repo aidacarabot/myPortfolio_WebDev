@@ -103,6 +103,18 @@ ScrollReveal().reveal('.education',{
   delay: 700,
 });
 
+ScrollReveal().reveal('.certificatesTitle',{
+  origin: 'top',
+  distance: '100px',
+  duration: 2000,
+});
+
+ScrollReveal().reveal('.certifications-container',{
+  origin: 'left',
+  distance: '-300px',
+  duration: 7000,
+});
+
 ScrollReveal().reveal('.skillsTitle',{
   origin: 'top',
   distance: '100px',

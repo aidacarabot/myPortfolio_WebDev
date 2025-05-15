@@ -1,6 +1,6 @@
 const data = {
   name: "Aida Carabot",
-  title: "Junior Full-Stack Developer with Business Background",
+  title: "Full-Stack Developer & Ex-Amazon Brand Manager",
   avatar:"/assets/cv_image.jpg",
   cv:"/cv/AidaCarabot_CV.pdf",
   aboutMe:
@@ -267,6 +267,30 @@ const data = {
       repository: "https://github.com/aidact3/RTC_PROJECT_1",
       preview:
         "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+  ],
+
+  certificates: [
+    {
+      title: "JavaScript Developer Certification",
+      institution: "thePower",
+      link: "https://verified.sertifier.com/es/verify/23217705609352/",
+      img: "/assets/javascript certificate.png",
+      skills: "HTML, CSS, Javascript Fundamentals, Javascript Advanced, Vite"
+    },
+     {
+      title: "Backend Developer Certification",
+      institution: "thePower",
+      link: "https://verified.sertifier.com/es/verify/90450500239736/",
+      img: "/assets/backend developer.png",
+      skills: " Node.js, NoSQL, Express.js, Backend, API with Express"
+    },
+    {
+      title: "Frontend Developer Certification",
+      institution: "thePower",
+      link: "https://verified.sertifier.com/es/verify/31051213939292/",
+      img: "/assets/frontend certificate.png",
+      skills: "React, React Styles, Devtools"
     },
   ],
 };

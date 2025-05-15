@@ -2,6 +2,7 @@ import "./AboutMe.css";
 import data from "../data/data.js";
 import educationTemplate from "../Education/Education.js";
 import experienceTemplate from "../Experience/Experience.js";
+import certificationsTemplate from "../Certifications/Certifications.js";
 
 const aboutMe = () => {
   const section = document.createElement('section');
@@ -19,6 +20,9 @@ const aboutMe = () => {
       </article>
     </div>
     <div id="content-area">${educationTemplate()}</div>
+
+    <h2 class="certificatesTitle">CERTIFICATES</h2>
+    <article class="certifications-container">${certificationsTemplate()}</article>
   `;
 
   document.body.appendChild(section);
